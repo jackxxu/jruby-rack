@@ -1,7 +1,7 @@
 
 module JRubyJars
   def self.jruby_rack_jar_path
-    File.expand_path("../jruby-rack-1.1.16.jar", __FILE__)
+    File.expand_path("../jruby-rack-1.1.15.jar", __FILE__)
   end
   require jruby_rack_jar_path if defined?(JRUBY_VERSION)
 end
